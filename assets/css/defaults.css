@@ -93,6 +93,34 @@ h6 {
     margin-top: var(--margin-6);
 }
 
+.mb-0 {
+    margin-bottom: var(--margin-0);
+}
+
+.mb-1 {
+    margin-bottom: var(--margin-1);
+}
+
+.mb-2 {
+    margin-bottom: var(--margin-2);
+}
+
+.mb-3 {
+    margin-bottom: var(--margin-3);
+}
+
+.mb-4 {
+    margin-bottom: var(--margin-4);
+}
+
+.mb-5 {
+    margin-bottom: var(--margin-5);
+}
+
+.mb-6 {
+    margin-bottom: var(--margin-6);
+}
+
 .p-0 {
     padding: var(--padding-0);
 }
@@ -252,6 +280,11 @@ img {
     transform: scale(1.1);
 }
 
+.btn-success {
+    background: var(--color-success);
+    color: var(--color-one);
+}
+
 label {
     font-weight: 700;
     font-size: 1.2rem;
@@ -292,6 +325,10 @@ input {
 
 .text-success {
     color: var(--color-success);
+}
+
+.text-primary {
+    color: var(--color-three);
 }
 
 .bg-success {
