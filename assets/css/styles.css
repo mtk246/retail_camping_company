@@ -66,3 +66,7 @@ html, body {
     padding: 0.5rem 1rem;
     margin: 0.5rem 1rem;
 }
+
+.receipt-option {
+    justify-content: space-between;
+}
