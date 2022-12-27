@@ -1,27 +1,28 @@
-html,body{
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     background: #fff;
     overflow-x: hidden;
 }
 
-.section-1 {
-    background: url('https://i1.wp.com/aeroteardrops.com/wp-content/uploads/2017/07/shutterstock_346530860.jpg?fit=6016%2C4016') no-repeat;
-    background-size: cover;
-    height: 60vh;
+.year-end-sale-content {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-position: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
 }
 
 .section-1-content {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--color-three);
     border-radius: 1rem;
+    margin: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .offer-item-list {
@@ -31,15 +32,37 @@ html,body{
     align-items: center;
     margin: 1rem;
     padding: 2rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    background-color: var(--bg-card);
+    padding: var(--padding-1);
+    margin: var(--margin-1);
+    border-radius: 0.5rem;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-card-wrapper {
+    display: flex;
+}
+
+.basket-section-1, .basket-section-2 {
+    margin: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.payment-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
 }

@@ -1,14 +1,19 @@
 :root {
     --color-one: #fff;
     --color-two: #333;
-    --color-three: red;
+    --color-three: #ffe8a5;
     --color-four: #ededed;
     --color-five: #F2DAD7;
     --color-six: #D1A39E;
     --color-seven: #CECDCA;
     --color-eight: #474545;
     --color-nine: #eaeaea;
-    --color-success: #07AA44;
+    --color-success: #008932;
+    --color-secondary: #ffeBa5;
+    --bg-card: rgba(240, 240, 240, 0.897);
+    --text-primary: #949FF8;
+    --text-secondary: #949FF8;
+    --text-fade: rgba(134, 134, 134, 0.979);
     --gradient-one: rgba(0, 0, 0, .5);
     --gradient-two: rgba(0, 0, 0, .3);
     --heading-one: 4rem;

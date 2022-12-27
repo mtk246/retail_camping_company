@@ -50,6 +50,10 @@
     .col-s-12 {
         width: 100%;
     }
+
+    .section-1-content {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {}
@@ -217,6 +221,12 @@
 			transform: translateX(0);
 		}
 	}
+}
+
+@media screen and (min-width: 1200px) {
+    .section-1-content {
+        text-align: left;
+    }
 }
 
 /* media queries end */

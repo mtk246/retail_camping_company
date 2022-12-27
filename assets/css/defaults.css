@@ -9,16 +9,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: var(--heading-one);
-    color: var(--color-one);
+    color: var(--text-primary);
 }
 
 h2 {
     font-size: var(--heading-two);
+    color: var(--text-primary);
 }
 
 h3 {
     font-size: var(--heading-three);
-    color: var(--color-one);
+    color: var(--text-primary);
 }
 
 h4 {
@@ -205,6 +206,30 @@ h6 {
     padding-bottom: var(--padding-6);
 }
 
+.pl-1 {
+    padding-left: var(--padding-1);
+}
+
+.pl-2 {
+    padding-left: var(--padding-2);
+}
+
+.pl-3 {
+    padding-left: var(--padding-3);
+}
+
+.pl-4 {
+    padding-left: var(--padding-4);
+}
+
+.pl-5 {
+    padding-left: var(--padding-5);
+}
+
+.pl-6 {
+    padding-left: var(--padding-6);
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -218,7 +243,7 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--color-two);
+    color: var(--color-four);
 }
 
 a:hover {
@@ -262,26 +287,40 @@ img {
     text-align: left
 }
 
+.text-primary {
+    color: var(--text-primary) !important;
+}
+
+.text-fade {
+    color: var(--text-fade) !important;
+}
+
 .btn {
     display: inline-block;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background: var(--color-three);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background: var(--text-primary);
     color: var(--color-one);
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.1rem;
     transition: all .5s ease-in-out;
+    border-color: transparent;
 }
 
 .btn:hover {
-    background: var(--color-one);
-    color: var(--color-three);
+    background: var(--color-eight);
+    color: var(--text-primary);
     transform: scale(1.1);
 }
 
 .btn-success {
     background: var(--color-success);
+    color: var(--color-one);
+}
+
+.btn-success {
+    background-color: var(--color-secondary);
     color: var(--color-one);
 }
 
@@ -328,7 +367,11 @@ input {
 }
 
 .text-primary {
-    color: var(--color-three);
+    color: var(--text-primary);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
 }
 
 .bg-success {
