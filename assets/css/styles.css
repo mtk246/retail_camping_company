@@ -149,4 +149,5 @@ html, body {
     display: flex;
     align-items: flex-start;
     padding: 0.5rem;
+    align-items: center;
 }
