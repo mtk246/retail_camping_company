@@ -70,3 +70,83 @@ html, body {
 .receipt-option {
     justify-content: space-between;
 }
+
+.amount-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirm-order {
+    margin: 0.5rem;
+}
+
+.confirm-order .btn {
+    width: 100% !important;
+}
+
+.confirm-order span {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.count-wrapper input {
+    width: 50%;
+    text-align: center;
+}
+
+.img-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-flex div {
+    margin: 0.5rem;
+}
+
+.btn-direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-detail .container-fluid {
+    padding: 0.5rem;
+}
+
+.review-option {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.review-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-content .container-fluid {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5rem;
+}

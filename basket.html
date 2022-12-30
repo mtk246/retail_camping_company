@@ -43,10 +43,10 @@
                 <a href="equipment.html"> Camping Equipment </a>
               </li>
               <li class="nav-tab">
-                <a href="#"> Furniture </a>
+                <a href="furniture.html"> Furniture </a>
               </li>
               <li class="nav-tab">
-                <a href="#"> Review </a>
+                <a href="review.html"> Review </a>
               </li>
               <li class="nav-tab">
                 <a href="#"> Basket </a>
@@ -60,13 +60,13 @@
       </div>
     </header>
     <div class="basket">
-      <div class="pt-4 pl-4">
+      <div class="pt-4 pl-1 pr-1">
         <h2>Basket</h2>
         <p class="text-fade">
           Complete your order by adding items to your basket.
         </p>
       </div>
-      <div class="container-fluid row pl-4">
+      <div class="container-fluid row pl-1 pr-1">
         <div class="col-6">
           <div class="basket-section-1">
             <div class="container-fluid">
@@ -158,9 +158,55 @@
               <hr />
             </div>
           </div>
+          <div class="basket-section-1">
+            <div class="container-fluid">
+              <h3 class="text-dark">Delivery Date</h3>
+              <div class="deli-option">
+                <select class="form-control mt-1">
+                  <option>As soon as possible</option>
+                  <option>Tomorrow</option>
+                  <option>Day After Tomorrow</option>
+                </select>
+                <button class="btn btn-primary mt-1">Confirm</button>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-6">
-          <div class="basket-section-2">hello</div>
+          <div class="basket-section-2">
+            <div class="container-fluid font-bold">
+              <div class="amount-wrapper">
+                <div>
+                  <h3>Total Amount</h3>
+                </div>
+                <div>
+                  <h3>$ 780.00</h3>
+                </div>
+              </div>
+              <div class="row mt-1 amount-option">
+                <div class="col-6">Items</div>
+                <div class="col-6 text-right">5</div>
+              </div>
+              <div class="row mt-1 amount-option">
+                <div class="col-6">Discount</div>
+                <div class="col-6 text-right text-danger">- $10</div>
+              </div>
+              <div class="row mt-1 amount-option">
+                <div class="col-6">Shipping Cost</div>
+                <div class="col-6 text-right">Free</div>
+              </div>
+            </div>
+          </div>
+          <div class="confirm-order">
+            <button class="btn btn-primary btn-lg btn-block">
+              Confirm Order
+            </button>
+            <span class="text-fade">
+              By clicking "Confirm Order", you agree to our
+              <a href="#" class="text-secondary">Terms of Service</a> and
+              <a href="#" class="text-secondary">Privacy Policy.</a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
