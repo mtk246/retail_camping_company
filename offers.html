@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="assets/css/media_queries.css" />
     <link rel="stylesheet" href="assets/css/slideshow.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="year-end-sale-wrapper bg-success text-center text-white">
@@ -18,6 +25,73 @@
         <div>+959250048922</div>
         <div>
           <span class="text-uppercase">Year End Sale</span> - Up to 50% Off
+        </div>
+        <div class="modal-section">
+          <!-- Trigger/Open The Modal -->
+          <button id="myBtn" class="btn btn-primary">
+            Show Promotion Detail
+          </button>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get 50% off on all products.</h2>
+                <span class="close">&times;</span>
+              </div>
+              <div class="m-2">
+                <h2>
+                  <span class="text-danger">Hurry up!</span> Offer ends in 2
+                  days.
+                </h2>
+                <div class="slideshow-wrapper">
+                  <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Text</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Two</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Three</div>
+                    </div>
+
+                    <a class="prev prev-1" onclick="plusSlides(-1)">❮</a>
+                    <a class="next next-1" onclick="plusSlides(1)">❯</a>
+                  </div>
+                  <br />
+                  <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                </div>
+                <a href="equipment.html" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -76,17 +150,16 @@
       </div>
     </div>
     <div class="section-2 m-1">
-      <h2>Facilities For You</h2>
+      <h2>Offers For You</h2>
       <div class="container-fluid row product-card-wrapper">
         <div class="col-3">
           <a href="product1.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
+                src="https://i5.walmartimages.com/asr/e0e61dd1-4f33-4fa9-a9b3-11ff28129aa3_4.b55f7f2a3038afb0dd8b88731e96da4e.jpeg"
                 alt="camping stove"
-                width="200"
-                height="200"
+                width="300"
               />
               <div class="card-body">
                 <h4 class="card-title">Camping Stove</h4>
@@ -98,7 +171,7 @@
           </a>
         </div>
         <div class="col-3">
-          <a href="#" class="link">
+          <a href="product2.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
@@ -117,7 +190,61 @@
           </a>
         </div>
         <div class="col-3">
-          <a href="#" class="link">
+          <a href="product3.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://freepngimg.com/thumb/backpack/1-backpack-png-image.png"
+                alt="camping stove"
+                width="200"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Bag</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product4.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://i.pinimg.com/originals/79/49/a8/7949a81b7f94362362daec08d88a9b41.png"
+                alt="camping stove"
+                width="200"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Tent</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product1.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://i5.walmartimages.com/asr/e0e61dd1-4f33-4fa9-a9b3-11ff28129aa3_4.b55f7f2a3038afb0dd8b88731e96da4e.jpeg"
+                alt="camping stove"
+                width="300"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Stove</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product2.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
@@ -136,7 +263,61 @@
           </a>
         </div>
         <div class="col-3">
-          <a href="#" class="link">
+          <a href="product3.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://freepngimg.com/thumb/backpack/1-backpack-png-image.png"
+                alt="camping stove"
+                width="200"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Bag</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product4.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://i.pinimg.com/originals/79/49/a8/7949a81b7f94362362daec08d88a9b41.png"
+                alt="camping stove"
+                width="200"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Tent</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product1.html" class="link">
+            <div class="card text-center">
+              <img
+                class="card-img-top"
+                src="https://i5.walmartimages.com/asr/e0e61dd1-4f33-4fa9-a9b3-11ff28129aa3_4.b55f7f2a3038afb0dd8b88731e96da4e.jpeg"
+                alt="camping stove"
+                width="300"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Camping Stove</h4>
+                <p>Organic, Sustainable</p>
+                <h3 class="text-secondary font-bold">$ 100</h3>
+                <button class="btn btn-primary mt-1">Add to Cart</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="product2.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
@@ -155,17 +336,16 @@
           </a>
         </div>
         <div class="col-3">
-          <a href="#" class="link">
+          <a href="product3.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
+                src="https://freepngimg.com/thumb/backpack/1-backpack-png-image.png"
                 alt="camping stove"
                 width="200"
-                height="200"
               />
               <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
+                <h4 class="card-title">Camping Bag</h4>
                 <p>Organic, Sustainable</p>
                 <h3 class="text-secondary font-bold">$ 100</h3>
                 <button class="btn btn-primary mt-1">Add to Cart</button>
@@ -174,131 +354,16 @@
           </a>
         </div>
         <div class="col-3">
-          <a href="#" class="link">
+          <a href="product4.html" class="link">
             <div class="card text-center">
               <img
                 class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
+                src="https://i.pinimg.com/originals/79/49/a8/7949a81b7f94362362daec08d88a9b41.png"
                 alt="camping stove"
                 width="200"
-                height="200"
               />
               <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="#" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="200"
-                height="200"
-              />
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
+                <h4 class="card-title">Camping Tent</h4>
                 <p>Organic, Sustainable</p>
                 <h3 class="text-secondary font-bold">$ 100</h3>
                 <button class="btn btn-primary mt-1">Add to Cart</button>

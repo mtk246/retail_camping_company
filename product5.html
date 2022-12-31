@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="assets/css/media_queries.css" />
     <link rel="stylesheet" href="assets/css/slideshow.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="year-end-sale-wrapper bg-success text-center text-white">
@@ -18,6 +25,73 @@
         <div>+959250048922</div>
         <div>
           <span class="text-uppercase">Year End Sale</span> - Up to 50% Off
+        </div>
+        <div class="modal-section">
+          <!-- Trigger/Open The Modal -->
+          <button id="myBtn" class="btn btn-primary">
+            Show Promotion Detail
+          </button>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Get 50% off on all products.</h2>
+                <span class="close">&times;</span>
+              </div>
+              <div class="m-2">
+                <h2>
+                  <span class="text-danger">Hurry up!</span> Offer ends in 2
+                  days.
+                </h2>
+                <div class="slideshow-wrapper">
+                  <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Text</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Two</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img
+                        class="img-responsive"
+                        src="http://wallpapercave.com/wp/wp1857443.jpg"
+                        width="500px"
+                        height="500px"
+                      />
+                      <div class="text">Caption Three</div>
+                    </div>
+
+                    <a class="prev prev-1" onclick="plusSlides(-1)">❮</a>
+                    <a class="next next-1" onclick="plusSlides(1)">❯</a>
+                  </div>
+                  <br />
+                  <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                </div>
+                <a href="equipment.html" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
