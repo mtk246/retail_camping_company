@@ -199,3 +199,9 @@ html, body {
 .star-icon {
     color: #FFD700;
 }
+
+.youtube-div {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding-2);
+}
