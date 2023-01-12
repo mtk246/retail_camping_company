@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campers | Furniture</title>
-    <link rel="stylesheet" href="assets/css/variables.css" >
-    <link rel="stylesheet" href="assets/css/defaults.css" >
-    <link rel="stylesheet" href="assets/css/navbar.css" >
-    <link rel="stylesheet" href="assets/css/media_queries.css" >
-    <link rel="stylesheet" href="assets/css/slideshow.css" >
-    <link rel="stylesheet" href="assets/css/styles.css" >
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/defaults.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/media_queries.css" />
+    <link rel="stylesheet" href="assets/css/slideshow.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    >
+    />
   </head>
   <body>
     <div class="year-end-sale-wrapper bg-success text-center text-white">
@@ -54,7 +54,7 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Text</div>
                     </div>
                     <div class="mySlides fade">
@@ -64,7 +64,7 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Two</div>
                     </div>
                     <div class="mySlides fade">
@@ -74,14 +74,14 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Three</div>
                     </div>
 
                     <a class="prev prev-1" onclick="plusSlides(-1)">❮</a>
                     <a class="next next-1" onclick="plusSlides(1)">❯</a>
                   </div>
-                  <br >
+                  <br />
                   <div style="text-align: center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -98,11 +98,11 @@
     <header>
       <div class="nav-wrapper">
         <div class="logo-container">
-          <img class="logo" src="assets/img/retail.svg" alt="Logo" >
+          <img class="logo" src="assets/img/retail.svg" alt="Logo" />
           <h3 class="logo-text">Campers</h3>
         </div>
         <nav>
-          <input class="hidden" type="checkbox" id="menuToggle" >
+          <input class="hidden" type="checkbox" id="menuToggle" />
           <label class="menu-btn" for="menuToggle">
             <div class="menu"></div>
             <div class="menu"></div>
@@ -145,240 +145,299 @@
             alt="camping stove"
             width="200"
             height="200"
-          >
+          />
         </div>
       </div>
     </div>
     <div class="section-2 m-1">
-      <h2>Furniture For You</h2>
-      <div class="container-fluid row product-card-wrapper">
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="assets/img/chair.svg"
-                alt="outdoor chair"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Portable Rocking Chair & Outdoor Camping Chair</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
+      <div class="search-wrapper">
+        <h2>Furniture For You</h2>
+        <div>
+          <input type="text" placeholder="Search.." name="search" />
         </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="assets/img/sofa.svg"
-                alt="Intex-Inflatable Corner-Sofa"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Intex-Inflatable Corner-Sofa</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
+      </div>
+      <div class="container-fluid row-2">
+        <div class="col-s-4 col-2 categories-bar">
+          <div class="deli-option">
+            <h3>Filter</h3>
+            <select class="form-control mt-1">
+              <option>Price Low to High</option>
+              <option>Price High to Low</option>
+              <option>Newest</option>
+              <option>Oldest</option>
+            </select>
+            <button class="btn btn-primary mt-1">Confirm</button>
+          </div>
+          <h3>Categories</h3>
+          <ul class="categories">
+            <li class="category">
+              <a href="equipment.html">All</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Cookwares</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Sleeping Bags</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Tents</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Chairs</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Tables</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Lanterns</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Stoves</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Coolers</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Lights</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Accessories</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71QVZUOEy3L._AC_SL1500_.jpg"
-                alt=" Camping Hammock"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title"> Camping Hammock </h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+        <div class="col-s-8 col-10">
+          <div class="container-fluid row product-card-wrapper">
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="assets/img/chair.svg"
+                    alt="outdoor chair"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Portable Rocking Chair & Outdoor Camping Chair
+                    </h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71kFBfvq1VL._AC_SL1500_.jpg"
-                alt="Outdoor Folding Table"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Outdoor Folding Table</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="assets/img/sofa.svg"
+                    alt="Intex-Inflatable Corner-Sofa"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Intex-Inflatable Corner-Sofa</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71VnxCh-ZiL._AC_SL1500_.jpg"
-                alt="Outdoor Slim-Fold Cook Station"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Outdoor Slim-Fold Cook Station </h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71QVZUOEy3L._AC_SL1500_.jpg"
+                    alt=" Camping Hammock"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Hammock</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/81j9d4UPYXL._AC_SL1500_.jpg"
-                alt="Portable Folding Bed"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Portable Folding Bed</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71kFBfvq1VL._AC_SL1500_.jpg"
+                    alt="Outdoor Folding Table"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Outdoor Folding Table</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/61fsKSUrs3S._AC_SL1200_.jpg"
-                alt="outdoor camping chair"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Outdoor Camping Chair</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71VnxCh-ZiL._AC_SL1500_.jpg"
+                    alt="Outdoor Slim-Fold Cook Station"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Outdoor Slim-Fold Cook Station</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/718Yu-c3RXL._AC_SL1500_.jpg"
-                alt="Picnic Table and Umbrella Comb"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Picnic Table and Umbrella Comb</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/81j9d4UPYXL._AC_SL1500_.jpg"
+                    alt="Portable Folding Bed"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Portable Folding Bed</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/614tqHprpVL._AC_SL1500_.jpg"
-                alt="camping tent"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Camping Tent</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/61fsKSUrs3S._AC_SL1200_.jpg"
+                    alt="outdoor camping chair"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Outdoor Camping Chair</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71bMWcLiQaS._AC_SL1500_.jpg"
-                alt="Inflatable Empire Chair"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Inflatable Empire Chair</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/718Yu-c3RXL._AC_SL1500_.jpg"
+                    alt="Picnic Table and Umbrella Comb"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Picnic Table and Umbrella Comb</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71D4G2EAb2L._AC_SL1500_.jpg"
-                alt="Inflatable Hot Tub"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Inflatable Hot Tub</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/614tqHprpVL._AC_SL1500_.jpg"
+                    alt="camping tent"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Tent</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71+sEd4r2rL._AC_SL1000_.jpg"
-                alt="Outdoor Camping Table"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Outdoor Camping Table</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71bMWcLiQaS._AC_SL1500_.jpg"
+                    alt="Inflatable Empire Chair"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Inflatable Empire Chair</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71D4G2EAb2L._AC_SL1500_.jpg"
+                    alt="Inflatable Hot Tub"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Inflatable Hot Tub</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71+sEd4r2rL._AC_SL1000_.jpg"
+                    alt="Outdoor Camping Table"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Outdoor Camping Table</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -410,7 +469,15 @@
             <p>123, Main Street, Your City, Your Country</p>
             <p>Phone: +123 456 7890</p>
             <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5441490457433!2d96.13509161544958!3d16.848955788403387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19492c4bbe131%3A0x974ebe72a63ebb40!2sPyay%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1673330755963!5m2!1sen!2smm" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5441490457433!2d96.13509161544958!3d16.848955788403387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19492c4bbe131%3A0x974ebe72a63ebb40!2sPyay%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1673330755963!5m2!1sen!2smm"
+                width="300"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

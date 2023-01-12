@@ -292,6 +292,12 @@ a:hover {
     align-items: center;
 }
 
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 img {
     max-width: 100%;
     height: auto;

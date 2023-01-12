@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campers | Equipment</title>
-    <link rel="stylesheet" href="assets/css/variables.css" >
-    <link rel="stylesheet" href="assets/css/defaults.css" >
-    <link rel="stylesheet" href="assets/css/navbar.css" >
-    <link rel="stylesheet" href="assets/css/media_queries.css" >
-    <link rel="stylesheet" href="assets/css/slideshow.css" >
-    <link rel="stylesheet" href="assets/css/styles.css" >
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/defaults.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/media_queries.css" />
+    <link rel="stylesheet" href="assets/css/slideshow.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    >
+    />
   </head>
   <body>
     <div class="year-end-sale-wrapper bg-success text-center text-white">
@@ -54,7 +54,7 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Text</div>
                     </div>
                     <div class="mySlides fade">
@@ -64,7 +64,7 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Two</div>
                     </div>
                     <div class="mySlides fade">
@@ -74,14 +74,14 @@
                         src="http://wallpapercave.com/wp/wp1857443.jpg"
                         width="500"
                         height="500"
-                      >
+                      />
                       <div class="text">Caption Three</div>
                     </div>
 
                     <a class="prev prev-1" onclick="plusSlides(-1)">❮</a>
                     <a class="next next-1" onclick="plusSlides(1)">❯</a>
                   </div>
-                  <br >
+                  <br />
                   <div style="text-align: center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -98,11 +98,11 @@
     <header>
       <div class="nav-wrapper">
         <div class="logo-container">
-          <img class="logo" src="assets/img/retail.svg" alt="Logo" >
+          <img class="logo" src="assets/img/retail.svg" alt="Logo" />
           <h3 class="logo-text">Campers</h3>
         </div>
         <nav>
-          <input class="hidden" type="checkbox" id="menuToggle" >
+          <input class="hidden" type="checkbox" id="menuToggle" />
           <label class="menu-btn" for="menuToggle">
             <div class="menu"></div>
             <div class="menu"></div>
@@ -145,240 +145,297 @@
             alt="camping stove"
             width="200"
             height="200"
-          >
+          />
         </div>
       </div>
     </div>
     <div class="section-2 m-1">
-      <h2>Equipments For You</h2>
-      <div class="container-fluid row product-card-wrapper">
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://i5.walmartimages.com/asr/e0e61dd1-4f33-4fa9-a9b3-11ff28129aa3_4.b55f7f2a3038afb0dd8b88731e96da4e.jpeg"
-                alt="camping stove"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Cookwares</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
+      <div class="search-wrapper">
+        <h2>Equipments For You</h2>
+        <div>
+          <input type="text" placeholder="Search.." name="search" />
         </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
-                alt="camping stove"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
-            </div>
-          </a>
+      </div>
+      <div class="container-fluid row-2">
+        <div class="col-s-4 col-2 categories-bar">
+          <div class="deli-option">
+            <h3>Filter</h3>
+            <select class="form-control mt-1">
+              <option>Price Low to High</option>
+              <option>Price High to Low</option>
+              <option>Newest</option>
+              <option>Oldest</option>
+            </select>
+            <button class="btn btn-primary mt-1">Confirm</button>
+          </div>
+          <h3>Categories</h3>
+          <ul class="categories">
+            <li class="category">
+              <a href="equipment.html">All</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Cookwares</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Sleeping Bags</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Tents</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Chairs</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Tables</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Lanterns</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Stoves</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Coolers</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Lights</a>
+            </li>
+            <li class="category">
+              <a href="equipment.html">Camping Accessories</a>
+            </li>
+          </ul>
         </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://freepngimg.com/thumb/backpack/1-backpack-png-image.png"
-                alt="camping stove"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Camping Bag</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+        <div class="col-s-8 col-10">
+          <div class="container-fluid row product-card-wrapper">
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://i5.walmartimages.com/asr/e0e61dd1-4f33-4fa9-a9b3-11ff28129aa3_4.b55f7f2a3038afb0dd8b88731e96da4e.jpeg"
+                    alt="camping stove"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Cookwares</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://i.pinimg.com/originals/79/49/a8/7949a81b7f94362362daec08d88a9b41.png"
-                alt="camping stove"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Camping Tent</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top"
+                    src="https://www.snowys.com.au/blog/wp-content/uploads/2020/04/Companion-Deluxe-3-Burner-Stove.png"
+                    alt="camping stove"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Stove</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/61luJJCAZpL._AC_SL1000_.jpg"
-                alt="tent lamp"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Temp Lamp</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top"
+                    src="https://freepngimg.com/thumb/backpack/1-backpack-png-image.png"
+                    alt="camping stove"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Bag</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/81Iw9O3D-UL._AC_SL1500_.jpg"
-                alt="sleeping pad"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Sleeping Pad</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top"
+                    src="https://i.pinimg.com/originals/79/49/a8/7949a81b7f94362362daec08d88a9b41.png"
+                    alt="camping stove"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Tent</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/81oYv5ORgbL._AC_SL1500_.jpg"
-                alt="camping hammock"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Camping Hammock</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/61luJJCAZpL._AC_SL1000_.jpg"
+                    alt="tent lamp"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Temp Lamp</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71YQ2MbYj5L._AC_SL1500_.jpg"
-                alt="air mattress"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Air Mattress</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/81Iw9O3D-UL._AC_SL1500_.jpg"
+                    alt="sleeping pad"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Sleeping Pad</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product1.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/71z6d03iT8S._AC_SL1500_.jpg"
-                alt="portable power station"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Portable Power Station</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/81oYv5ORgbL._AC_SL1500_.jpg"
+                    alt="camping hammock"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Camping Hammock</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product2.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/61OGMvr3meL._AC_SL1500_.jpg"
-                alt="portable camping stove"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Portable Camping Stove</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71YQ2MbYj5L._AC_SL1500_.jpg"
+                    alt="air mattress"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Air Mattress</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product3.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top pb-2"
-                src="https://m.media-amazon.com/images/I/81A7Rt353eL._AC_SL1500_.jpg"
-                alt="women urinal funnel"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Women Urinal Funnel</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product1.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/71z6d03iT8S._AC_SL1500_.jpg"
+                    alt="portable power station"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Portable Power Station</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
-        </div>
-        <div class="col-3">
-          <a href="product4.html" class="link">
-            <div class="card text-center">
-              <img
-                class="card-img-top"
-                src="https://m.media-amazon.com/images/I/81lFLOANwYL._AC_SL1500_.jpg"
-                alt="gearlight led headlamp"
-                width="300"
-                height="300"
-              >
-              <div class="card-body">
-                <h4 class="card-title">Gearlight LED Headlamp</h4>
-                <p>Organic, Sustainable</p>
-                <h3 class="text-secondary font-bold">$ 100</h3>
-                <button class="btn btn-primary mt-1">Add to Cart</button>
-              </div>
+            <div class="col-4">
+              <a href="product2.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/61OGMvr3meL._AC_SL1500_.jpg"
+                    alt="portable camping stove"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Portable Camping Stove</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
+            <div class="col-4">
+              <a href="product3.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top pb-2"
+                    src="https://m.media-amazon.com/images/I/81A7Rt353eL._AC_SL1500_.jpg"
+                    alt="women urinal funnel"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Women Urinal Funnel</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-4">
+              <a href="product4.html" class="link">
+                <div class="card text-center">
+                  <img
+                    class="card-img-top"
+                    src="https://m.media-amazon.com/images/I/81lFLOANwYL._AC_SL1500_.jpg"
+                    alt="gearlight led headlamp"
+                    width="300"
+                    height="300"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Gearlight LED Headlamp</h4>
+                    <p>Organic, Sustainable</p>
+                    <h3 class="text-secondary font-bold">$ 100</h3>
+                    <button class="btn btn-primary mt-1">Add to Cart</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -410,7 +467,15 @@
             <p>123, Main Street, Your City, Your Country</p>
             <p>Phone: +123 456 7890</p>
             <div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5441490457433!2d96.13509161544958!3d16.848955788403387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19492c4bbe131%3A0x974ebe72a63ebb40!2sPyay%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1673330755963!5m2!1sen!2smm" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.5441490457433!2d96.13509161544958!3d16.848955788403387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19492c4bbe131%3A0x974ebe72a63ebb40!2sPyay%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1673330755963!5m2!1sen!2smm"
+                width="300"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
