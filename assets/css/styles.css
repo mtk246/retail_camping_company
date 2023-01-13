@@ -216,3 +216,8 @@ html, body {
     border-radius: 0.5rem;
     border: 2px solid var(--color-two);
 }
+
+.categories li:hover {
+    background-color: var(--color-three);
+    cursor: pointer;
+}
