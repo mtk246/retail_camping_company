@@ -206,6 +206,10 @@ html, body {
     padding: var(--padding-2);
 }
 
+.search-wrapper div {
+    display: flex;
+}
+
 .search-wrapper div input {
     margin: auto;
 }
@@ -220,4 +224,9 @@ html, body {
 .categories li:hover {
     background-color: var(--color-three);
     cursor: pointer;
+}
+
+.offer-price {
+    color: var(--color-danger);
+    text-decoration: line-through;
 }
